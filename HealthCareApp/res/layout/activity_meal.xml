@@ -1,0 +1,386 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+   tools:context=".ChartActivity" >
+
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView1Goal"
+           android:layout_width="270dp"
+             android:layout_height="wrap_content"
+            android:src="@drawable/titlebar_new" />
+
+        <ImageButton
+            android:id="@+id/btnBackMealAdd2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/back" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="Name"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/ProName"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/Calories"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/Calories"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+            android:text="@string/ServingSize" />
+
+        <TextView
+            android:id="@+id/SS"
+            android:layout_width="0dip"
+            android:layout_marginTop="10dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            
+            android:textAppearance="?android:attr/textAppearanceMedium" 
+            android:text="@string/ServingSizeWieght" />
+
+        <TextView
+            android:id="@+id/SSW"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How Much?"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/amountMeal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10" >
+
+                <requestFocus />
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="@drawable/view">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nutrition Facts"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TableRow
+                    android:id="@+id/TableRow09"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/TextView25"
+                        android:layout_width="0px"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="35dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium" 
+                        android:text="@string/TotalFat" />
+
+                    <TextView
+                        android:id="@+id/TF"
+                        android:layout_width="0px"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="100dp"
+                        android:layout_weight="1" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRow08"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/TextView22"
+                        android:layout_width="0px"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="35dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium" 
+                        android:text="@string/Cholesterol" />
+
+                    <TextView
+                        android:id="@+id/Cho"
+                        android:layout_width="0px"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="100dp"
+                        android:layout_weight="1" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRow07"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/TextView19"
+                        android:layout_width="0px"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="35dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium" 
+                        android:text="@string/TotalCarbs" />
+
+                    <TextView
+                        android:id="@+id/TC"
+                        android:layout_width="0px"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="100dp"
+                        android:layout_weight="1" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRow06"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/TextView17"
+                        android:layout_width="0px"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="35dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium" 
+                        android:text="@string/Sodium" />
+
+                    <TextView
+                        android:id="@+id/Sod"
+                        android:layout_width="0px"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="100dp"
+                        android:layout_weight="1" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRow05"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/TextView14"
+                        android:layout_width="0px"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="35dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium" 
+                        android:text="@string/Protein" />
+
+                    <TextView
+                        android:id="@+id/Pro"
+                        android:layout_width="0px"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="100dp"
+                        android:layout_weight="1" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRow04"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/TextView11"
+                        android:layout_width="0px"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="35dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium" 
+                        android:text="@string/VitaminA" />
+
+                    <TextView
+                        android:id="@+id/VA"
+                        android:layout_width="0px"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="100dp"
+                        android:layout_weight="1" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRow03"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/TextView05"
+                        android:layout_width="0px"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="35dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium" 
+                        android:text="@string/VitaminC" />
+
+                    <TextView
+                        android:id="@+id/VC"
+                        android:layout_width="0px"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="100dp"
+                        android:layout_weight="1" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRow01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/TextView02"
+                        android:layout_width="0px"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="35dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium" 
+                        android:text="@string/Calcium" />
+
+                    <TextView
+                        android:id="@+id/Cal"
+                        android:layout_width="0px"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="100dp"
+                        android:layout_weight="1" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRow02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/TextView09"
+                        android:layout_width="0px"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="35dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium" 
+                        android:layout_weight="1"
+                        android:text="@string/Iron" />
+
+                    <TextView
+                        android:id="@+id/Iron"
+                        android:layout_width="0px"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="100dp"
+                        android:layout_weight="1" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <Button
+                        android:id="@+id/btnAddMeal"
+                        android:layout_width="wrap_content"
+              		  android:layout_height="35dp"
+                android:layout_marginLeft="100dp"
+                android:background="@drawable/button1"
+                android:text="Add "/>
+
+                </TableRow>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

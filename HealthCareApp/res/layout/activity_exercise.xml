@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".GoalActivity" >
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/titlebar_new" />
+
+        <ImageButton
+            android:id="@+id/imageButtonOCR"
+           android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/back" />
+
+    </TableRow>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" >
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Exercise"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/exerName"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="14dp"
+                android:ems="10" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" >
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Duration"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/exerDuration"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="14dp"
+                android:ems="10"
+                android:textSize="14dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="95dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/relativeLayout1"
+            android:layout_marginTop="20dp" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Notes"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/exerNotes"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/dateText"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:lines="4" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRowButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TableRow03"
+            android:layout_marginTop="10dp" >
+
+            <Button
+                android:id="@+id/btnAddExer"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="100dp"
+                android:background="@drawable/button1"
+                android:text="Add " />
+        </TableRow>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/view"
+        android:text="Daily Entery for exercise"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>

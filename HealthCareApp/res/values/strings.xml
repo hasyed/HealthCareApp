@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My personal trainer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_goal">GoalActivity</string>
+    <string name="title_activity_meal">MealActivity</string>
+    <string name="title_activity_exercise">ExerciseActivity</string>
+    <string name="title_activity_mealAdd">MealAddActivity</string>
+    <string name="title_activity_bmi">Bmi</string>
+    <string name="spinner_title">Select Label</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_chart">ChartActivity</string>
+    <!--  labels for widgets -->
+    <string name="heightLabel">Height</string>
+    <string name="calculateButton">Calculate</string>
+    <string name="EmptyString"/>
+    <string name="weightLabel">Weight</string>
+    <string name="bmiLabel">Body Mass Index</string>
+    <!--  the BMI descriptions -->
+    <string name="bmiNormal">Normal</string>
+    <string name="bmiOver">Overweight</string>
+    <string name="bmiUnder">Underweight</string>
+    <string name="bmiSUnder">Severely Underweight</string>
+    <string name="bmiObese">Obese</string>
+    <!--  Strings in nutrition table-->
+        <string name="TotalFat">Total Fat</string>
+    <string name="Cholesterol">Cholesterol</string>
+    <string name="Sodium">Sodium</string>
+    <string name="TotalCarbs">Total Carbs</string>
+    <string name="Protein">Protein</string>
+    <string name="VitaminA">Vitamin A</string>
+    <string name="Calcium">Calcium</string>
+    <string name="VitaminC">Vitamin C</string>
+    <string name="Potassium">Potassium</string>
+    <string name="Iron">Iron</string>
+    <string name="ServingSize">Serving Size</string>
+    <string name="ServingSizeWieght">Serving Size Wieght</string>
+    <string name="Calories">Calories</string>
+    <!--  Strings arrays used in Spinner widgets -->
+    <string-array name="heightUnitsArray">
+        <item>feet/inch</item>
+        <item>m/cm</item>
+    </string-array>
+    <string-array name="weightUnitsArray">
+        <item>lb</item>
+        <item>kg</item>
+    </string-array>
+    <!--  Colors used to used in the labels and the backgrouds -->
+    <color name="colorRed">#ff0000</color>
+    <color name="colorYellow">#00ffff</color>
+    <color name="colorGreen">#00ff00</color>
+    <color name="colorBG">#323232</color>
+    <string name="food_prompt">Choose a country</string>
+       <string name="title_activity_main">AChartEngineBarChart</string>
+    <string name="str_btn_chart">Income vs Expense Bar Chart</string>
+
+</resources>

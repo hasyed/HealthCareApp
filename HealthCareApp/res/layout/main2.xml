@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stadeeupdated2"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+      <ImageButton
+          android:id="@+id/goal"
+          android:layout_width="45dp"
+          android:layout_height="45dp"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/imageView1Goal"
+          android:layout_marginLeft="170dp"
+          android:layout_marginTop="2dp"
+          android:background="@android:color/transparent"
+          android:src="@drawable/goal" />
+
+    <ImageButton
+        android:id="@+id/cam"
+     	android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_below="@+id/imageView1Goal"
+        android:layout_toLeftOf="@+id/setting"
+        android:background="@android:color/transparent"
+        android:src="@drawable/cam" />
+
+        <ImageButton
+        android:id="@+id/chart"
+     	android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_alignTop="@+id/goal"
+        android:layout_toRightOf="@+id/goal"
+        android:background="@android:color/transparent"
+        android:src="@drawable/chart" />
+
+        <ImageButton
+        android:id="@+id/setting"
+     	android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_alignRight="@+id/imageView1Goal"
+        android:layout_below="@+id/imageView1Goal"
+        android:background="@android:color/transparent"
+        android:src="@drawable/setting" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="95dp"
+            
+            android:text="BMI Value:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-100dp"
+            android:layout_marginTop="35dp"
+            android:text="It"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/BMIText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="95dp"
+            android:text=" "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="The body mass index (BMI) is a measure for human body shape based on an individual weight and height." />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="1687"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnBMI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button5"
+            android:text="Find Yours" />
+
+        <Button
+            android:id="@+id/btnChart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button5"
+            android:text="BMI Chart" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            
+            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:text="1200"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:text="Measurements"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="167dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="35dp"
+            android:text="-200"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/heightText"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:ems="10" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Wieght"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/weightText"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginRight="40dp"
+            android:textSize="15dp"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:text="687"
+            android:layout_width="40dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Goal Weight"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/GWedit"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:textSize="15dp" >
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duration"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/DurationEdit"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="50dp"
+            android:ems="10"
+            android:textSize="15dp" >
+        </EditText>
+    </TableRow>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="57dp"
+                android:text="Notes"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Button
+                android:id="@+id/btnUpdBMI"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/button5"
+                android:text="Add "/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnAddRem"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:background="@drawable/button5"
+                android:text="Add Reminder" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnEditRem"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+               android:background="@drawable/button5"
+                android:text="Edit Reminder" />
+
+        </TableRow>
+    </LinearLayout>
+
+</LinearLayout>

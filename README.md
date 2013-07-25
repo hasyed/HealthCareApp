@@ -14,4 +14,5 @@ I have forked [android-ocr](https://github.com/rmtheis/android-ocr/tree/master/a
 
 #Requires
 [tess-two](https://github.com/rmtheis/tess-two/tree/master/tess-two)
+
 [OpenCV for android](http://opencv.org/)

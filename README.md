@@ -11,4 +11,5 @@ There is a chart that helps user to see his previouse performance regards calori
 I have forked [android-ocr](https://github.com/rmtheis/android-ocr/tree/master/android/src) with some changes for openCV for cleansing the image for my help. 
 
 #Requires
-
+[tess-two](https://github.com/rmtheis/tess-two/tree/master/tess-two)
+[OpenCV for android](http://opencv.org/)
